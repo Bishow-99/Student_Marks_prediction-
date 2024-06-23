@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 app = Flask(__name__)
 import joblib
-model=joblib.load('Student_mark _calculator.pkl')
+model=joblib.load('Marks_model.pkl')
 
 df=pd.DataFrame()
 
